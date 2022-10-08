@@ -1,3 +1,4 @@
+test
 Dokumentacija treba da sadrži korisničko uputstvo za veb prezentaciju i objašnjenje karakterističnih delova koda, nije potrebno objašnjavati ceo kod.
 
 Za najvišu ocenu, neophodno je ispuniti sve navedene zahteve na odgovarajući način kao i da veb prezentacija sa svim svojim sadržajem i funkcionalnostima predstavlja jedinstvenu celinu. Posebno će se ceniti kreativnost, originalnost i samostalan rad. Kodovi koji se nalaze u skripti (JavaScript i jQuery) se mogu koristiti isključivo kao uzori i ideje i ne mogu se koristiti u neizmenjenom formatu. 
