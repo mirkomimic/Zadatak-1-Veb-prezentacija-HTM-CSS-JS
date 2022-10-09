@@ -5,10 +5,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Document</title>
+    <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <div class="formWrap">
+      <!-- login form -->
+      <div class="formCard">
+        <img src="img/icon-frog-face.png" />
+        <h1>Sign In</h1>
+
+        <form action="" class="loginForm">
+          <input class="polje" type="email" placeholder="Email" />
+
+          <input class="polje" type="password" placeholder="Password" />
+
+          <div class="formControl">
+            <div>
+              <input type="checkbox" id="checkbox" />
+              <label class="rememberMe" for="checkbox">Remember me</label>
+            </div>
+
+            <a href="">I forgot my password!</a>
+          </div>
+
+          <div class="loginBtn">
+            <a href="blog.html">Login </a>
+          </div>
+          <p>Don't have an account yet?<a href=""> Sign Up </a></p>
+        </form>
+      </div>
+    </div>
+  </body>
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </html>
