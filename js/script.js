@@ -1,4 +1,4 @@
-// input validacija za login
+// input validacija za signup
 $(".polje").on("focus blur", function (e) {
   $(this).toggleClass("focus");
 
@@ -19,7 +19,7 @@ $(".polje").on("keyup", function () {
   }
 });
 
-// animacija na login stranici
+// animacija na signup stranici
 $(document).ready(function () {
   $("img").animate(
     {

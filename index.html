@@ -9,33 +9,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Login</title>
+    <link rel="icon" href="img/icon-frog-face.png" />
+    <title>Sign Up</title>
   </head>
   <body>
     <div class="formWrap">
       <!-- login form -->
       <div class="formCard">
         <img src="img/icon-frog-face.png" />
-        <h1>Sign In</h1>
+        <h3>Welcome to Programming Blog</p>
+        <h1>Sign Up</h1>
 
         <form action="" class="loginForm">
           <input class="polje" type="email" placeholder="Email" />
+          <input class="polje" type="text" placeholder="Username" />
 
           <input class="polje" type="password" placeholder="Password" />
+          <input class="polje" type="password" placeholder="Confirm password" />
+
+          <div class="formControlRow">
+            <label for="datumRodjenja">Date of birth:</label>
+            <input type="date" name="" id="datumRodjenja" />
+          </div>
 
           <div class="formControl">
-            <div>
-              <input type="checkbox" id="checkbox" />
-              <label class="rememberMe" for="checkbox">Remember me</label>
-            </div>
+            <fieldset>
+              <legend>Years of experience:</legend>
+              <div>
+                <input type="radio" name="experience" id="male" />
+                <label for="male">Less than 3 years</label>
+              </div>
+              <div>
+                <input type="radio" name="experience" id="female" />
+                <label for="female">3 to 5 years</label>
+              </div>
+              <div>
+                <input type="radio" name="experience" id="female" />
+                <label for="female">5+ years</label>
+              </div>
+            </fieldset>
+          </div>
 
-            <a href="">I forgot my password!</a>
+          <div class="formControlRow">
+            <label for="avatar">Choose your avatar:</label>
+            <input type="file" name="" id="avatar" placeholder="Choose avatar" />
           </div>
 
           <div class="loginBtn">
-            <a href="blog.html">Login </a>
+            <a href="blog.html">Sign Up </a>
           </div>
-          <p>Don't have an account yet?<a href=""> Sign Up </a></p>
+          <p>Already have an account?<a href=""> Login </a></p>
         </form>
       </div>
     </div>

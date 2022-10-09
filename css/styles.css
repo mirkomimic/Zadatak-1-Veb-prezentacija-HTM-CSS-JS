@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Merriweather", serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 body {
@@ -32,13 +32,24 @@ img {
 
 h1 {
   text-align: center;
-  margin-bottom: 2em;
-  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.7rem;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+h1,
+h3 {
+  color: rgb(32, 75, 54);
 }
 
 .formCard {
   width: 500px;
-  padding: 4rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding: 1rem 4rem;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
@@ -46,7 +57,7 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 a {
@@ -55,25 +66,45 @@ a {
 .formControl {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid rgba(129, 241, 194, 0.677);
+  height: 8rem;
+  width: 200px;
+  border-radius: 5px;
+}
+fieldset div {
+  text-align: left;
+  margin-left: 20px;
+}
+legend {
+  padding: 0 5px;
 }
 
 input {
   border: none;
   outline: none;
   background: rgba(255, 255, 255, 0.3);
-  padding: 1rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 100px;
 }
-input[type="submit"] {
-  background-color: rgba(102, 248, 86, 0.43);
-  cursor: pointer;
+.formControlRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .loginBtn {
   color: black;
   background-color: rgba(102, 248, 86, 0.43);
   cursor: pointer;
-  padding: 1rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 100px;
 }
 .loginBtn a {
@@ -98,6 +129,7 @@ input[type="submit"] {
     font-size: 0.7rem;
   }
   .formCard {
+    width: 400px;
     margin: 0 1rem;
     padding: 4rem 1rem;
   }
