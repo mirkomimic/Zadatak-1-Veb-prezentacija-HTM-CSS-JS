@@ -9,8 +9,6 @@
 body {
   width: 100vw;
   height: 100vh;
-  /* background: rgb(4, 110, 244);
-  background: linear-gradient(90deg, rgba(4, 110, 244, 1) 26%, rgba(78, 215, 242, 1) 100%); */
   background: linear-gradient(to right, #63ad72, #74b6cf);
 }
 

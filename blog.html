@@ -4,11 +4,216 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="css/stylesBlog.css" />
+    <!-- icon -->
+    <link rel="icon" href="img/icon-frog-face.png" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" type="text/css">
     <title>Blog</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo"><img src="img/icon-frog-face.png" /></div>
+        <ul class="navItems">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Dashboard</a></li>
+          <li><a href="">Logout</a></li>
+          <!-- <li class="avatar"><img src="" /></li> -->
+        </ul>
+        <button id="openNav">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button id="closeNav">
+          <i class="uil uil-multiply"></i>
+        </button>
+      </nav>
+    </header>
+    <!-- sekcija featured -->
+    <section class="featured">
+      <div class="container featuredContainer">
+        <div class="postThumbnail">
+          <img src="img/HTML5x2.png" alt="" />
+        </div>
+        <div class="postInfo">
+          <a href="" class="categoryBtn">HTML</a>
+          <h2 class="postTitle"><a href="post.html">HTML Basics</a></h2>
+          <p class="postBody">
+            HTML is the language for describing the structure of Web pages. HTML gives authors the means to: Publish online documents with headings, text, tables, lists, photos, etc. Retrieve online information via hypertext links, at the click of a
+            button...
+          </p>
+          <div class="postAuthor">
+            <div class="postAuthorInfo">By: Mirko Mimic</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- sekcija postovi -->
+    <section class="posts">
+      <div class="container postsContainer">
+        <article class="post">
+          <div class="postThumbnail">
+            <img src="img/HTML5x2.png" alt="" />
+          </div>
+          <div class="postInfo">
+            <a href="" class="categoryBtn">HTML</a>
+            <h2 class="postTitle">HTML Basics</h2>
+            <p class="postBody">HTML is the language for describing the structure of Web pages. HTML gives authors the means to: Publish online documents with headings, text, tables, lists, photos, etc...</p>
+            <div class="postAuthor">
+              <div class="postAuthorInfo">By: Mirko Mimic</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="postThumbnail">
+            <img src="img/css.png" alt="" />
+          </div>
+          <div class="postInfo">
+            <a href="" class="categoryBtn">CSS</a>
+            <h2 class="postTitle">What is CSS?</h2>
+            <p class="postBody">
+              CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features...
+            </p>
+            <div class="postAuthor">
+              <div class="postAuthorInfo">By: Mirko Mimic</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="postThumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="" />
+          </div>
+          <div class="postInfo">
+            <a href="" class="categoryBtn">Javascript</a>
+            <h2 class="postTitle">JS for beginners</h2>
+            <p class="postBody">
+              JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at...
+            </p>
+            <div class="postAuthor">
+              <div class="postAuthorInfo">By: Mirko Mimic</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="postThumbnail">
+            <img src="https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png" alt="" />
+          </div>
+          <div class="postInfo">
+            <a href="" class="categoryBtn">GitHub</a>
+            <h2 class="postTitle">How to use GitHub?</h2>
+            <p class="postBody">
+              GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull
+              requests...
+            </p>
+            <div class="postAuthor">
+              <div class="postAuthorInfo">By: Mirko Mimic</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="postThumbnail">
+            <img src="https://technokrats.in/wp-content/uploads/2020/11/Content1-7.png" alt="" />
+          </div>
+          <div class="postInfo">
+            <a href="" class="categoryBtn">jQuery</a>
+            <h2 class="postTitle">jQuery, JS library</h2>
+            <p class="postBody">
+              jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude...
+            </p>
+            <div class="postAuthor">
+              <div class="postAuthorInfo">By: Mirko Mimic</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="postThumbnail">
+            <img src="img/php3.jpeg" alt="" />
+          </div>
+          <div class="postInfo">
+            <a href="" class="categoryBtn">PHP</a>
+            <h2 class="postTitle">PHP funcions</h2>
+            <p class="postBody">
+              A function is a piece of code that takes another input in the form of a parameter, processes it, and then returns a value. A PHP Function feature is a piece of code that can be used over and over again and accepts argument lists as
+              input, and returns a value. PHP comes with thousands of built-in features...
+            </p>
+            <div class="postAuthor">
+              <div class="postAuthorInfo">By: Mirko Mimic</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="postThumbnail">
+            <img src="https://miro.medium.com/max/786/1*Qj9diz5xQYgTgGcmtno4sg.jpeg" alt="" />
+          </div>
+          <div class="postInfo">
+            <a href="" class="categoryBtn">SQL</a>
+            <h2 class="postTitle">SQL statements</h2>
+            <p class="postBody">
+              SQL commands are the instructions used to communicate with a database to perform tasks, functions, and queries with data. SQL commands can be used to search...
+            </p>
+            <div class="postAuthor">
+              <div class="postAuthorInfo">By: Mirko Mimic</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footerContainer container">
+        <article>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">JavaScript</a></li>
+            <li><a href="">jQuery</a></li>
+            <li><a href=""></a>PHP</a></li>
+            <li><a href="">SQL</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Links</h4>
+          <ul>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Services</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Social</h4>
+          <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">YouTube</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="footerCopyright">
+        <small>Copyright &copy; PROGRAMMING BLOG</small>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
