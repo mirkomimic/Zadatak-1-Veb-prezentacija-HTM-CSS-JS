@@ -167,7 +167,10 @@ footer h4 {
   border-top: 1px solid black;
   margin-top: 4rem;
 }
-nav button {
+/* nav button {
+  display: none;
+} */
+#hamburger-menu {
   display: none;
 }
 /* za srednje uredjaje */
@@ -217,7 +220,7 @@ nav button {
     display: flex;
     align-items: center;
   }
-  #closeNav {
+  /* #closeNav {
     display: none;
   }
   nav button {
@@ -229,6 +232,34 @@ nav button {
   }
   nav button i {
     font-size: 2rem;
+  } */
+  #hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  .bar {
+    background-color: black;
+    height: 3px;
+    width: 2rem;
+    border-radius: 5px;
+    transition: transform 0.1s ease-in-out;
+  }
+  .topBar {
+    transform: rotate(45deg);
+    position: absolute;
+  }
+  .middleBar {
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+  }
+  .bottomBar {
+    transform: rotate(-45deg);
+    position: absolute;
+  }
+  .displayBlock {
+    display: block;
   }
 }
 /* za manje uredjaje */

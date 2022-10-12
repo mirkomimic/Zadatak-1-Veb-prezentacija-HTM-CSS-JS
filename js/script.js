@@ -30,15 +30,23 @@ $(document).ready(function () {
 });
 
 // prikazivanje i sakrivanje nav-a na click
-$("#openNav").click(function () {
-  // alert("click");
-  $(this).css("display", "none");
-  $("#closeNav").css("display", "inline-block");
-  $(".navItems").css("display", "block");
-});
-$("#closeNav").click(function () {
-  // alert("click");
-  $(this).css("display", "none");
-  $("#openNav").css("display", "inline-block");
-  $(".navItems").css("display", "none");
+// $("#openNav").click(function () {
+//   // alert("click");
+//   $(this).css("display", "none");
+//   $("#closeNav").css("display", "inline-block");
+//   $(".navItems").css("display", "block");
+// });
+// $("#closeNav").click(function () {
+//   // alert("click");
+//   $(this).css("display", "none");
+//   $("#openNav").css("display", "inline-block");
+//   $(".navItems").css("display", "none");
+// });
+
+// hamburger menu
+$("#hamburger-menu").click(function () {
+  $(".top").toggleClass("topBar");
+  $(".middle").toggleClass("middleBar");
+  $(".bottom").toggleClass("bottomBar");
+  $(".navItems").toggleClass("displayBlock");
 });
