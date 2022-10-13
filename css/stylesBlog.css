@@ -97,9 +97,9 @@ section {
   max-height: 330px;
 }
 .categoryBtn {
-  background: rgba(66, 107, 85, 0.844);
+  /* background: rgba(66, 107, 85, 0.844); */
+  background: rgb(81 147 111 / 84%);
   /* background-color: rgba(153, 153, 162, 0.18); */
-  color: var(--color-primary);
   display: inline-block;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
@@ -167,11 +167,38 @@ footer h4 {
   border-top: 1px solid black;
   margin-top: 4rem;
 }
-/* nav button {
-  display: none;
-} */
 #hamburger-menu {
   display: none;
+}
+/* pojedinacni post */
+.singlePost {
+  margin: 6rem 0 2rem;
+}
+.singlePostContainer {
+  width: 80%;
+  /* background: var(--color-gray-900); */
+  padding: 1rem 2rem 3rem;
+  background-color: #fcfcfc52;
+  border-radius: 1rem;
+}
+.singlePostContainer h2 {
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: #2a4f30;
+}
+.singlePostContainer ul {
+  padding-left: 3rem;
+}
+.singlePostContainer ul li {
+  list-style-type: disc;
+}
+#htmlSlika1 {
+  float: right;
+  margin: 0 1rem;
+}
+#htmlSlika2 {
+  float: left;
+  margin: 0 1rem;
 }
 /* za srednje uredjaje */
 @media screen and (max-width: 1150px) {
@@ -200,7 +227,10 @@ footer h4 {
     align-items: flex-start;
     justify-content: center;
     gap: 0;
-    display: none;
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
   }
   .navItems li {
     width: 100%;
@@ -240,7 +270,7 @@ footer h4 {
     gap: 5px;
   }
   .bar {
-    background-color: black;
+    background-color: rgb(29, 83, 24);
     height: 3px;
     width: 2rem;
     border-radius: 5px;
@@ -259,7 +289,16 @@ footer h4 {
     position: absolute;
   }
   .displayBlock {
-    display: block;
+    /* display: block; */
+    visibility: visible;
+    opacity: 1;
+  }
+  #htmlSlika1,
+  #htmlSlika2 {
+    margin: 0 1rem;
+    /* float: none; */
+    width: 250px;
+    height: 250px;
   }
 }
 /* za manje uredjaje */
@@ -285,5 +324,16 @@ footer h4 {
   }
   footer article {
     margin-bottom: 1rem;
+  }
+  .singlePostContainer {
+    width: 98%;
+  }
+  #htmlSlika1,
+  #htmlSlika2 {
+    display: block;
+    margin: 0 auto 1rem;
+    float: none;
+    width: 320px;
+    height: 320px;
   }
 }

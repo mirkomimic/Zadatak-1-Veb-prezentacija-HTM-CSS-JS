@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" />
+    <!-- styles -->
+    <link rel="stylesheet" href="css/stylesBlog.css" />
+    <!-- icon -->
+    <link rel="icon" href="img/icon-frog-face.png" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" type="text/css">
+    <title>Blog | Post</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo"><img src="img/icon-frog-face.png" /></div>
+        <ul class="navItems">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Dashboard</a></li>
+          <li><a href="">Logout</a></li>
+          <!-- <li class="avatar"><img src="" /></li> -->
+        </ul>
+
+        <div id="hamburger-menu">
+          <div class="bar top"></div>
+          <div class="bar middle"></div>
+          <div class="bar bottom"></div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- pojedinacni post -->
+    <section class="singlePost">
+      <div class="container singlePostContainer">
+        <a href="" class="categoryBtn">HTML</a>
+        <h2>HTML Basics</h2>
+        <p>HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web Applications.
+        What is HTML?           
+        </p><br>
+        <img id="htmlSlika1" class="postThumbnail" src="img/HTML5x2.png" alt="">
+        <p>HTML is the language for describing the structure of Web pages. HTML gives authors the means to:</p><br>
+        <ul>
+          <li>Publish online documents with headings, text, tables, lists, photos, etc.</li>
+          <li>Retrieve online information via hypertext links, at the click of a button.
+          </li>
+          <li>Design forms for conducting transactions with remote services, for use in searching for information, making reservations, ordering products, etc.
+          </li>
+          <li>Include spread-sheets, video clips, sound clips, and other applications directly in their documents.
+          </li>
+        </ul><br>
+        <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p><br>
+        <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as &lt;img /&gt; and &lt;input /&gt; directly introduce content into the page. Other tags such as &lt;p&gt; surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags but use them to interpret the content of the page.</p>
+        <h2>History</h2>
+
+        <p>In 1980, physicist Tim Berners-Lee, a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system. Berners-Lee specified HTML and wrote the browser and server software in late 1990. That year, Berners-Lee and CERN data systems engineer Robert Cailliau collaborated on a joint request for funding, but the project was not formally adopted by CERN. In his personal notes from 1990 he listed "some of the many areas in which hypertext is used" and put an encyclopedia first.</p><br>
+        <img id="htmlSlika2" class="postThumbnail" src="img/Tim-Berners-Lee.webp" alt="">
+
+        <p>The first publicly available description of HTML was a document called "HTML Tags", first mentioned on the Internet by Tim Berners-Lee in late 1991.It describes 18 elements comprising the initial, relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by SGMLguid, an in-house Standard Generalized Markup Language (SGML)-based documentation format at CERN. Eleven of these elements still exist in HTML 4.</p><br>
+        <p>HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visual or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer's additional use of CSS. Many of the text elements are found in the 1988 ISO technical report TR 9537 Techniques for using SGML, which in turn covers the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system: these formatting commands were derived from the commands used by typesetters to manually format documents.</p><br>
+        <p>Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the World Wide Web Consortium (W3C). However, in 2000, HTML also became an international standard (ISO/IEC 15445:2000). HTML 4.01 was published in late 1999, with further errata published through 2001. In 2004, development began on HTML5 in the Web Hypertext Application Technology Working Group (WHATWG), which became a joint deliverable with the W3C in 2008, and completed and standardized on 28 October 2014.</p><br>
+        Source: <a href="https://en.wikipedia.org/wiki/HTML">(https://en.wikipedia.org/wiki/HTML)</a>
+        <div class="postAuthor">
+          <div class="postAuthorInfo">By: Mirko Mimic</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footerContainer container">
+        <article>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">JavaScript</a></li>
+            <li><a href="">jQuery</a></li>
+            <li><a href=""></a>PHP</a></li>
+            <li><a href="">SQL</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Links</h4>
+          <ul>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Services</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Social</h4>
+          <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">YouTube</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="footerCopyright">
+        <small>Copyright &copy; PROGRAMMING BLOG</small>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
