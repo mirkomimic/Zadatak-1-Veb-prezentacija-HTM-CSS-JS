@@ -161,6 +161,9 @@ footer h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+footer i {
+  font-size: 1.4rem;
+}
 .footerCopyright {
   text-align: center;
   padding: 1.5rem 0;
@@ -199,6 +202,78 @@ footer h4 {
 #htmlSlika2 {
   float: left;
   margin: 0 1rem;
+}
+/* dashboard */
+.dashboard {
+  margin: 6rem 0 2rem;
+}
+.dashboardContainer {
+  width: 70%;
+  /* background: var(--color-gray-900); */
+  padding: 1rem 2rem 3rem;
+  background-color: #fcfcfc52;
+  border-radius: 1rem;
+}
+.dashboardContainer h2 {
+  font-size: 2rem;
+  color: rgb(3, 64, 3);
+  margin-bottom: 2rem;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  margin: 0 auto;
+}
+table thead th {
+  padding-bottom: 1rem;
+}
+table thead tr {
+  border: none;
+}
+table tr td:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+table tr td:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+td {
+  /* border: 1px solid black; */
+  padding: 0.5rem;
+}
+table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.249);
+}
+table tbody tr:nth-child(even) {
+  background-color: rgba(37, 34, 34, 0.094);
+}
+table tbody tr:hover {
+  background-color: rgba(42, 41, 41, 0.48);
+  cursor: pointer;
+}
+.btnsContainer {
+  /* border: 1px solid black; */
+  margin-bottom: 1rem;
+  /* margin-left: 3rem; */
+}
+.btnsContainer button {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  background-color: rgba(210, 207, 207, 0.49);
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+#deletePost {
+  background-color: rgba(216, 55, 55, 0.489);
+}
+#deletePost:hover {
+  background-color: white;
+}
+.btnsContainer button:hover {
+  background-color: rgba(7, 46, 11, 0.564);
+}
+.selectRow {
+  color: rgb(249, 249, 249);
 }
 /* za srednje uredjaje */
 @media screen and (max-width: 1150px) {
@@ -338,5 +413,10 @@ footer h4 {
     float: none;
     width: 320px;
     height: 320px;
+  }
+  .dashboardContainer {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem 0.5rem 3rem;
   }
 }

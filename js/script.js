@@ -50,3 +50,8 @@ $("#hamburger-menu").click(function () {
   $(".bottom").toggleClass("bottomBar");
   $(".navItems").toggleClass("displayBlock");
 });
+
+// select row on click
+$("#tabela tbody tr").click(function () {
+  $(this).addClass("selectRow").siblings().removeClass("selectRow");
+});

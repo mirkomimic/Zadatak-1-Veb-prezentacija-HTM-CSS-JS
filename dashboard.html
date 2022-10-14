@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" />
+    <!-- styles -->
+    <link rel="stylesheet" href="css/stylesBlog.css" />
+    <!-- icon -->
+    <link rel="icon" href="img/icon-frog-face.png" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <title>Blog | Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo"><img src="img/icon-frog-face.png" /></div>
+        <ul class="navItems">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="">Logout</a></li>
+          <!-- <li class="avatar"><img src="" /></li> -->
+        </ul>
+
+        <div id="hamburger-menu">
+          <div class="bar top"></div>
+          <div class="bar middle"></div>
+          <div class="bar bottom"></div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- dashboard za korisnika -->
+    <section class="dashboard">  
+  
+      <div class="dashboardContainer container">
+
+        <h2>Dashboard</h2>
+        <div class="btnsContainer">
+          <button id="addPost">Add post</button>
+          <button id="editPost">Edit post</button>
+          <button id="deletePost">Delete post</button>
+        </div> 
+        <table id="tabela">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Body</th>
+              <th>Category</th>              
+              <th>Author</th>              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML Basics</td>
+              <td>HTML is the language for describing the structure of Web pages...</td>
+              <td>HTML</td>
+              <td>Mirko Mimic</td>
+            </tr>
+            <tr>
+              <td>What is CSS?</td>
+              <td>CSS (Cascading Style Sheets) is used to style and layout web pages...</td>
+              <td>CSS</td>
+              <td>Mirko Mimic</td>
+            </tr>
+            <tr>
+              <td>JS For Beginners</td>
+              <td>JavaScript is a scripting or programming language that allows you...</td>
+              <td>Javascript</td>
+              <td>Mirko Mimic</td>
+            </tr>
+            <tr>
+              <td>How To Use GitHub?</td>
+              <td>GitHub is a code hosting platform for version control ...</td>
+              <td>GitHub</td>
+              <td>Mirko Mimic</td>
+            </tr>
+            <tr>
+              <td>jQuery, JS Library</td>
+              <td>jQuery is a fast, small, and feature-rich JavaScript librar...</td>
+              <td>jQuery</td>
+              <td>Mirko Mimic</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footerContainer container">
+        <article>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">JavaScript</a></li>
+            <li><a href="">jQuery</a></li>
+            <li><a href=""></a>PHP</a></li>
+            <li><a href="">SQL</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Links</h4>
+          <ul>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Services</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Social</h4>
+          <ul>
+            <li><i class="uil uil-facebook"></i><a href="">Facebook</a></li>
+            <li><i class="uil uil-twitter"></i><a href="">Twitter</a></li>
+            <li><i class="uil uil-instagram"></i><a href="">Instagram</a></li>
+            <li><i class="uil uil-youtube"></i><a href="">YouTube</a></li>
+            <li><i class="uil uil-linkedin"></i><a href="">LinkedIn</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="footerCopyright">
+        <small>Copyright &copy; PROGRAMMING BLOG</small>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
