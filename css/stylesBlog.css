@@ -275,6 +275,47 @@ table tbody tr:hover {
 .selectRow {
   color: rgb(249, 249, 249);
 }
+/* search bar */
+.searchBarContainer {
+  margin-top: 3rem;
+  width: 30rem;
+  background-color: #fcfcfc52;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  color: black;
+}
+.searchBarContainer > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.searchBarContainer input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0.7rem 1.5rem;
+  border-radius: 100px;
+  width: 100%;
+}
+#searchBtn {
+  border: none;
+  display: inline-block;
+  width: fit-content;
+  padding: 0.6rem 1.2rem;
+  background-color: rgb(81 147 111 / 84%);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 300ms ease;
+  color: rgb(6, 51, 8);
+}
+#searchBtn:hover {
+  color: white;
+}
 /* za srednje uredjaje */
 @media screen and (max-width: 1150px) {
   .container {
