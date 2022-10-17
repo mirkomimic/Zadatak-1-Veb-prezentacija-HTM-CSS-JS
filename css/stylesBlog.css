@@ -416,6 +416,10 @@ table tbody tr:hover {
     width: 250px;
     height: 250px;
   }
+  /* search bar */
+  .searchBarContainer {
+    max-width: 30rem;
+  }
 }
 /* za manje uredjaje */
 @media screen and (max-width: 600px) {
