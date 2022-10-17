@@ -38,8 +38,6 @@
       </nav>
     </header>
 
-    
-
     <!-- sekcija featured -->
     <section class="featured">
       <div class="container featuredContainer">
@@ -61,14 +59,27 @@
       </div>
     </section>
 
-    <!-- search bar -->
-    <form action="" class="searchBarContainer container">
-      <div>
-        <i class="uil uil-search"></i>
-        <input type="search" name="" placeholder="Search">
-      </div>
-      <button id="searchBtn" type="submit">Go</button>
-    </form>
+    
+    <div id="filteri" class="container">
+      <!-- search bar -->
+      <form action="" class="searchBarContainer">
+        <div>
+          <i class="uil uil-search"></i>
+          <input type="search" name="" placeholder="Search">
+        </div>
+        <button id="searchBtn" type="submit">Go</button>
+
+      </form>
+
+      <!-- option filter -->
+      <form action="" class="optionFilterContainer">
+        <select class="select">
+          <option value="" disabled selected>Sort:</option>
+          <option value="">Newest</option>
+          <option value="">Oldest</option>
+        </select>
+      </form>
+    </div>
     
     <!-- sekcija postovi -->
     <section class="posts">
