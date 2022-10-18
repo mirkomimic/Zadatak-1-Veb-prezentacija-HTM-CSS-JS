@@ -292,7 +292,7 @@ table tbody tr:hover {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
-  padding: 0.6rem 1rem;
+  padding: 0.3rem 1rem;
   border-radius: 0.5rem;
   color: black;
 }
@@ -327,7 +327,7 @@ table tbody tr:hover {
 .optionFilterContainer {
   border-radius: 100px;
   background-color: #fcfcfc52;
-  padding: 0.6rem 1rem;
+  padding: 0.3rem 1rem;
   border-radius: 0.5rem;
   color: black;
 }
